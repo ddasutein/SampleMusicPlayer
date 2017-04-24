@@ -35,8 +35,7 @@ namespace SampleMusicPlayer
 
         }
 
-
-        private void buttonImportFile_Click(object sender, EventArgs e)
+        private void PlayAudioFile()
         {
             using (OpenFileDialog audioFile = new OpenFileDialog())
             {
@@ -49,6 +48,7 @@ namespace SampleMusicPlayer
                     if (output.PlaybackState == PlaybackState.Stopped)
                     {
                         audioFileReader = new AudioFileReader(audioFile.FileName);
+                        buttonPlayPause.Image = Properties.Resources.glyphicons_175_pause;
                         output.Init(audioFileReader);
                         output.Play();
                         SongDuration.Start();
@@ -60,7 +60,7 @@ namespace SampleMusicPlayer
 
                         foreach (string artist in file.Tag.Artists)
                         {
-                            labelArtistName.Text = artist.ToString();                          
+                            labelArtistName.Text = artist.ToString();
                         }
 
                         labelSongTitle.Text = file.Tag.Title;
@@ -108,12 +108,18 @@ namespace SampleMusicPlayer
                 }
 
             }
+        }
+
+        private void buttonImportFile_Click(object sender, EventArgs e)
+        {
+            PlayAudioFile();
 
         }
 
         private void buttonStop_Click(object sender, EventArgs e)
         {
             output.Dispose();
+            buttonPlayPause.Image = Properties.Resources.glyphicons_174_play;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -139,6 +145,82 @@ namespace SampleMusicPlayer
             }
 
             }
+
+        private void VolumeSlider_Scroll(object sender, EventArgs e)
+        {
+
+            if (VolumeSlider.Value == 10)
+            {
+                output.Volume = 1.0f;
+                labelVolumeStatus.ImageIndex = 2;
+            }
+            else if (VolumeSlider.Value == 9)
+            {
+                output.Volume = 0.9f;
+            }
+            else if (VolumeSlider.Value == 8)
+            {
+                output.Volume = 0.8f;
+            }
+            else if (VolumeSlider.Value == 7)
+            {
+                output.Volume = 0.7f;
+            }
+            else if (VolumeSlider.Value == 6)
+            {
+                output.Volume = 0.6f;
+            }
+            else if (VolumeSlider.Value == 5)
+            {
+                output.Volume = 0.5f;
+                labelVolumeStatus.ImageIndex = 1;
+            }
+            else if (VolumeSlider.Value == 4)
+            {
+                output.Volume = 0.4f;
+            }
+            else if (VolumeSlider.Value == 3)
+            {
+                output.Volume = 0.3f;
+            }
+            else if (VolumeSlider.Value == 2)
+            {
+                output.Volume = 0.2f;
+            }
+            else if (VolumeSlider.Value == 1)
+            {
+                output.Volume = 0.1f;
+            }
+            else if (VolumeSlider.Value == 0)
+            {
+                output.Volume = 0.0f;
+                labelVolumeStatus.ImageIndex = 0;
+            }
+        }
+
+        private void playFromFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PlayAudioFile();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonPlayPause_Click(object sender, EventArgs e)
+        {
+            if (output.PlaybackState == PlaybackState.Playing)
+            {
+                output.Pause();
+                buttonPlayPause.Image = Properties.Resources.glyphicons_174_play;
+            }
+            else if (output.PlaybackState == PlaybackState.Paused)
+            {
+                output.Play();
+                buttonPlayPause.Image = Properties.Resources.glyphicons_175_pause;
+            }
         }
     }
+}
 

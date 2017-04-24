@@ -121,4 +121,19 @@
   <data name="AlbumArtDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AlbumArtDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="glyphicons_174_play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glyphicons-174-play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyphicons_175_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glyphicons-175-pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyphicons_176_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glyphicons-176-stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyphicons_182_download_alt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glyphicons-182-download-alt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glyphicons_504_cd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glyphicons-504-cd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

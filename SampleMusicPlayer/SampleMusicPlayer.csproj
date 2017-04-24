@@ -50,6 +50,24 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="NAudio, Version=1.8.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NAudio.1.8.0\lib\net35\NAudio.dll</HintPath>
@@ -91,6 +109,12 @@
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.en-US.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.ja-JP.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +144,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AlbumArtDefault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-183-mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-184-volume-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-185-volume-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-504-cd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-174-play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-175-pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-176-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glyphicons-182-download-alt.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
