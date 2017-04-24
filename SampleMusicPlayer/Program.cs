@@ -19,7 +19,7 @@ namespace SampleMusicPlayer
             // FOR DEBUGGING PURPOSES ONLY
 
             // FORCE APPLICATION TO DISPLAY IN JAPANESE ONLY. COMMENT TO DISABLE
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ja-JP");
+            ///Thread.CurrentThread.CurrentUICulture = new CultureInfo("ja-JP");
 
             // FORCE APPLICATION TO DISPLAY IN ENGLISH (US) ONLY. COMMENT TO DISABLE
             ///Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
