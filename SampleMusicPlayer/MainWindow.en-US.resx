@@ -117,70 +117,149 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="playFromFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
   <data name="playFromFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Play file</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 22</value>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 25</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelSongTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelSongTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt, style=Bold</value>
+  </data>
+  <data name="labelSongTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 358</value>
   </data>
   <data name="labelSongTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>330, 68</value>
+    <value>300, 41</value>
+  </data>
+  <data name="labelSongTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="labelArtistName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelArtistName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="labelArtistName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 393</value>
+  </data>
+  <data name="labelArtistName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 21</value>
+  </data>
+  <data name="labelArtistName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="labelAlbumName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelAlbumName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="labelAlbumName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 426</value>
+  </data>
+  <data name="labelAlbumName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 25</value>
+  </data>
+  <data name="labelAlbumName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="VolumeSlider.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="VolumeSlider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 17</value>
+  </data>
+  <data name="VolumeSlider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 45</value>
+  </data>
+  <data name="labelSongLength.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="labelSongLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="labelVolumeStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="VolumeIcons.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAM
-        CQAAAk1TRnQBSQFMAgEBAwEAATgBAAE4AQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
-        AwABEAMAAQEBAAEgBgABECoAAzcBWgM0AVRAAAMfAS0DTgHhCAADSAGHA1gBwwMLAQ80AAMtAUYDOQFg
-        XAADGgElA00B4gM5AV88AAMdASoDVQHYAwcB/QQAAx0BKgM0AfEDGgH5A0EBciwAAwMBBAMUARwDWAHI
-        AzoB7gMUARxUAAMPARQDVQG3AwcB/QM5AWAEAANFAX8DTQGWDAADTQGWA0UBfxgAAxwBJwNXAcwDBwH8
-        AwAB/wQAAwcBCQNVAbIDAAH/A1QB2wMKAQ0kAAMKAQ4DVwHUA08BmwMHAQoDUgHdA1EB4AMFAQdMAAME
-        AQUDQQFyAykB9AMAAf8DOQFgBAADSQHmAz0B7QM9AWkEAAM9AWkDPQHtA0kB5hQAAxoBJANXAcADDgH7
-        AwAB/wMAAf8IAAMqAUADAAH/Aw4B+wMwAUwUAAMJAQwDQwF4BAADLgFIAyYBOANGAYADBwH8Ay4BSANC
-        AXQDAAH/AzABTEgAAwYBCAM3AVoDVQHYAwAB/gMAAf8DOQFgBAADVgG7AwAB/wNWAdMDPwFuA1YB0wMA
-        Af8DVgHWDAADCAELAzABTQNVAbQDFQH6AwAB/wMAAf8DAAH/CAADBwEKA08B3wMAAf8DSgGMEAADBAEG
-        A1ABnQMAAf8DEAEVAy0B8wNWAccDAQECA1gByQNJAeQDGwEmAwAB/wNOAZRAAANNAZYDUAGfA1ABpANY
-        Ac8DBwH8AwAB/wMAAf8DOQFgBAADMgFRA0kB5gMOAfsDVAHbAw4B+wMzAfADPwFvA00BlgNQAZ8DUAGf
-        A08BpQNYAckDGgH5AwAB/wMAAf8DAAH/AwAB/wwAA1ABngMAAf8DVQG0DAADDQESA1cBwAMHAf0DAAH/
-        BAADKgFAAwcB/QMwAUwDRAF6AwAB/wMkATYDVgHQA1YBwkAAAx0B+AMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wM5AWAEAAMMARADSAGHAwAB/wMAAf8DAAH/A1IBqQMTARoDHQH4AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/DAADRgGAAwAB/wNXAcADNwFaAzkBYAM9AWoDWAHOAwAB/wMAAf8DAAH/
-        CAADUgHZA1MBrAMvAUoDAAH/AzkBYANKAYoDUQHgQwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM5
+        CQAAAk1TRnQBSQFMAgEBAwEAAUABAAFAAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABECoAAzcBWgM0AVRAAAMfAS0DUgHhCAADSAGHA1kBwwMLAQ80AAMtAUYDOQFg
+        XAADGgElA1AB4gM5AV88AAMdASoDVgHYAwgB/QQAAx0BKgM4AfEDHAH5A0EBciwAAwMBBAMUARwDWQHI
+        Az4B7gMUARxUAAMPARQDVQG3AwgB/QM5AWAEAANFAX8DTQGWDAADTQGWA0UBfxgAAxwBJwNZAcwDCAH8
+        AwAB/wQAAwcBCQNVAbIDAAH/A1YB2wMKAQ0kAAMKAQ4DWAHUA08BmwMHAQoDVAHdA1QB4AMFAQdMAAME
+        AQUDQQFyAywB9AMAAf8DOQFgBAADTgHmA0IB7QM9AWkEAAM9AWkDQgHtA04B5hQAAxoBJANYAcADEAH7
+        AwAB/wMAAf8IAAMqAUADAAH/AxAB+wMwAUwUAAMJAQwDQwF4BAADLgFIAyYBOANGAYADCAH8Ay4BSANC
+        AXQDAAH/AzABTEgAAwYBCAM3AVoDVgHYAwAB/gMAAf8DOQFgBAADVgG7AwAB/wNXAdMDPwFuA1cB0wMA
+        Af8DVwHWDAADCAELAzABTQNVAbQDGAH6AwAB/wMAAf8DAAH/CAADBwEKA1EB3wMAAf8DSgGMEAADBAEG
+        A1ABnQMAAf8DEAEVAzIB8wNXAccDAQECA1kByQNMAeQDGwEmAwAB/wNOAZRAAANNAZYDUAGfA1ABpANZ
+        Ac8DCAH8AwAB/wMAAf8DOQFgBAADMgFRA04B5gMQAfsDVgHbAxAB+wM4AfADPwFvA00BlgNQAZ8DUAGf
+        A08BpQNZAckDHAH5AwAB/wMAAf8DAAH/AwAB/wwAA1ABngMAAf8DVQG0DAADDQESA1gBwAMIAf0DAAH/
+        BAADKgFAAwgB/QMwAUwDRAF6AwAB/wMkATYDVwHQA1cBwkAAAx8B+AMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wM5AWAEAAMMARADSAGHAwAB/wMAAf8DAAH/A1IBqQMTARoDHwH4AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/DAADRgGAAwAB/wNYAcADNwFaAzkBYAM9AWoDWQHOAwAB/wMAAf8DAAH/
+        CAADVQHZA1MBrAMvAUoDAAH/AzkBYANKAYoDVAHgQwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM5
         AWAIAAM5AWADAAH/AwAB/wMAAf8DQwF4BwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wwAA0YBgAMAAf8DVwHAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wgAA1cBwANXAcADKgFA
-        AwAB/wNAAXADRgGAA1EB4EMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DOQFgBAADEwEaA1IBqQMA
+        AwAB/wwAA0YBgAMAAf8DWAHAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wgAA1gBwANYAcADKgFA
+        AwAB/wNAAXADRgGAA1QB4EMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DOQFgBAADEwEaA1IBqQMA
         Af8DAAH/AwAB/wNSAakDEwEaAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wwA
-        A0YBgAMAAf8DVwHAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wgAA1cBwANXAcADKgFAAwAB/wM5
-        AWADRgGAA1EB4EAAAxoB+QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM5AWAEAAM/AW8DMwHwAw4B+wNY
-        Ac8DHQH4AzMB8AM/AW8DGgH5AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/DAADUAGe
-        AwAB/wNVAbQDVQG0A1cBvwNYAcMDPQHtAwAB/wMAAf8DAAH/BAADBgEIAzoB7gNLAZADNQFYAwAB/wM1
-        AVgDTwGcA1QB2kAAA08BpQNUAa8DVQGzA1UB2AMAAf8DAAH/AwAB/wM5AWAEAANWAdYDAAH/A1YB0wM1
-        AVgDVQG8AwAB/wNWAdYDTwGlA1QBrwNUAa8DVQG0A1YB0gMAAf8DAAH/AwAB/wMAAf8DAAH/CAADBwEK
-        A08B3wMAAf8DSgGMCAADAQECAx8BLAMxAfIDAAH/AwAB/wQAA0sBkAMaAfkDEwEaA0wBkwMAAf8DFQEd
-        AyAB9wNVAbNIAAMHAQkDOwFjA0sB4wMAAf8DAAH/AzkBYAQAA0kB5gM9Ae0DPQFpBAADKQE/A04B4QNJ
-        AeYMAAMJAQwDNAFUA1cBywMOAfsDAAH/AwAB/wMAAf8IAAMqAUADAAH/Aw4B+wMwAUwQAAMSARgDWAHE
-        AwAB/wMUARwDRAHoA04BmAMSARgDRAHoA1MBsAMqAUADAAH/A0QBfEwAAwQBBQNEAXoDHwH2AwAB/wM5
-        AWAEAANFAX8DTQGWDAADPwFvA0UBfxQAAxwBJwNXAcwDBwH8AwAB/wMAAf8EAAMLAQ8DVQGyAwAB/wNU
-        AdsDCgENFAADEAEVA1YB0ggAAw0BEQNXAdQDOgHuAwoBDgNOAZkDBwH9Ax4BK1AAAxABFQNWAcIDAAH+
-        AzkBYDgAAx0BKgNVAdgDBwH9AwAB/wQAAy8BSgMaAfkDGgH5A0EBcigAAwQBBgM5AWADOQFgAygBPAMl
-        AfUDSwGQAwEBAlQAAxwBJwNDAesDOQFgPAADHwEtA0kB5AMAAf4EAAMWAR4DWAHDA1cBxQMLAQ8wAAMH
-        AQoDVwHAA1YBx2AAAzkBYAM3AVpAAAMhATADMwHwDAADFwEgPAADDAEQSAABQgFNAT4HAAE+AwABKAMA
+        A0YBgAMAAf8DWAHAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wgAA1gBwANYAcADKgFAAwAB/wM5
+        AWADRgGAA1QB4EAAAxwB+QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM5AWAEAAM/AW8DOAHwAxAB+wNZ
+        Ac8DHwH4AzgB8AM/AW8DHAH5AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/DAADUAGe
+        AwAB/wNVAbQDVQG0A1cBvwNZAcMDQgHtAwAB/wMAAf8DAAH/BAADBgEIAz4B7gNLAZADNQFYAwAB/wM1
+        AVgDTwGcA1cB2kAAA08BpQNUAa8DVgGzA1YB2AMAAf8DAAH/AwAB/wM5AWAEAANXAdYDAAH/A1cB0wM1
+        AVgDVgG8AwAB/wNXAdYDTwGlA1QBrwNUAa8DVQG0A1gB0gMAAf8DAAH/AwAB/wMAAf8DAAH/CAADBwEK
+        A1EB3wMAAf8DSgGMCAADAQECAx8BLAM2AfIDAAH/AwAB/wQAA0sBkAMcAfkDEwEaA0wBkwMAAf8DFQEd
+        AyQB9wNWAbNIAAMHAQkDOwFjA08B4wMAAf8DAAH/AzkBYAQAA04B5gNCAe0DPQFpBAADKQE/A1IB4QNO
+        AeYMAAMJAQwDNAFUA1gBywMQAfsDAAH/AwAB/wMAAf8IAAMqAUADAAH/AxAB+wMwAUwQAAMSARgDWQHE
+        AwAB/wMUARwDSQHoA04BmAMSARgDSQHoA1MBsAMqAUADAAH/A0QBfEwAAwQBBQNEAXoDIwH2AwAB/wM5
+        AWAEAANFAX8DTQGWDAADPwFvA0UBfxQAAxwBJwNZAcwDCAH8AwAB/wMAAf8EAAMLAQ8DVQGyAwAB/wNW
+        AdsDCgENFAADEAEVA1gB0ggAAw0BEQNYAdQDPgHuAwoBDgNOAZkDCAH9Ax4BK1AAAxABFQNXAcIDAAH+
+        AzkBYDgAAx0BKgNWAdgDCAH9AwAB/wQAAy8BSgMcAfkDHAH5A0EBcigAAwQBBgM5AWADOQFgAygBPAMq
+        AfUDSwGQAwEBAlQAAxwBJwNIAesDOQFgPAADHwEtA0wB5AMAAf4EAAMWAR4DWQHDA1cBxQMLAQ8wAAMH
+        AQoDWAHAA1cBx2AAAzkBYAM3AVpAAAMhATADOAHwDAADFwEgPAADDAEQSAABQgFNAT4HAAE+AwABKAMA
         AUADAAEQAwABAQEAAQEFAAGAFwAD/wEAAfwC/wExAf8B8wIAAfgB/wH+ASEB/wHBAgAB8AGcAfwBIAH/
         AYACAAHgAYgB+AEwAfkDAAHAAYAB4AEwAfAEAAGAAQABOAHhBAABgAEAATgBAQGAAwABwQEAATgBAQGA
         AwABgAEAATgBAQGAAwABgAEAATgBAQQAAYABAAEwAcEDAAHAAYgB4AEwAfADAAHgAZwB+AEgAfkBgAIA
         AfAB/wH8ASEB/wGAAgAB+AH/Af4BIQH/AeMCAAH8Av8BOwH/AfsCAAs=
 </value>
   </data>
-  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 243</value>
+  <data name="labelVolumeStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 20</value>
   </data>
-  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 46</value>
+  <data name="trackBar2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="trackBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="trackBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 45</value>
+  </data>
+  <data name="buttonImportFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="buttonImportFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Open Sans, 9pt</value>
+  </data>
+  <data name="buttonImportFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 8</value>
   </data>
   <data name="buttonImportFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 46</value>
@@ -188,8 +267,29 @@
   <data name="buttonImportFile.Text" xml:space="preserve">
     <value>Play file</value>
   </data>
+  <data name="buttonPlayPause.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="buttonPlayPause.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 243</value>
+    <value>321, 8</value>
+  </data>
+  <data name="buttonStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 8</value>
+  </data>
+  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 46</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 469</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 65</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="pictureBox1.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -419,8 +519,19 @@
         CATrzggE684IBOvOCATrzggE684IBOvOCATrzggE684Iw403/j87syElF4t5RQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 46</value>
+  </data>
+  <data name="pictureBox1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 300</value>
+  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>620, 534</value>
   </data>
 </root>

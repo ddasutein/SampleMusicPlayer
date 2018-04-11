@@ -64,7 +64,7 @@
             // menuStrip1
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.BackColor = System.Drawing.Color.White;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.preferencesToolStripMenuItem,
@@ -137,7 +137,7 @@
             // 
             resources.ApplyResources(this.labelSongTitle, "labelSongTitle");
             this.labelSongTitle.BackColor = System.Drawing.Color.Transparent;
-            this.labelSongTitle.ForeColor = System.Drawing.Color.Black;
+            this.labelSongTitle.ForeColor = System.Drawing.Color.White;
             this.labelSongTitle.Name = "labelSongTitle";
             this.labelSongTitle.UseCompatibleTextRendering = true;
             // 
@@ -145,28 +145,33 @@
             // 
             resources.ApplyResources(this.labelArtistName, "labelArtistName");
             this.labelArtistName.BackColor = System.Drawing.Color.Transparent;
-            this.labelArtistName.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.labelArtistName.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.labelArtistName.Name = "labelArtistName";
             // 
             // labelAlbumName
             // 
             resources.ApplyResources(this.labelAlbumName, "labelAlbumName");
             this.labelAlbumName.BackColor = System.Drawing.Color.Transparent;
-            this.labelAlbumName.ForeColor = System.Drawing.Color.Black;
+            this.labelAlbumName.ForeColor = System.Drawing.Color.DimGray;
             this.labelAlbumName.Name = "labelAlbumName";
             // 
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.VolumeSlider);
             this.panel1.Controls.Add(this.labelSongLength);
+            this.panel1.Controls.Add(this.labelVolumeStatus);
             this.panel1.Controls.Add(this.trackBar2);
+            this.panel1.Controls.Add(this.buttonImportFile);
+            this.panel1.Controls.Add(this.buttonPlayPause);
+            this.panel1.Controls.Add(this.buttonStop);
             this.panel1.Name = "panel1";
             // 
             // labelSongLength
             // 
             resources.ApplyResources(this.labelSongLength, "labelSongLength");
-            this.labelSongLength.ForeColor = System.Drawing.Color.White;
+            this.labelSongLength.ForeColor = System.Drawing.Color.Black;
             this.labelSongLength.Name = "labelSongLength";
             // 
             // trackBar2
@@ -244,22 +249,15 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.labelVolumeStatus);
-            this.Controls.Add(this.VolumeSlider);
-            this.Controls.Add(this.buttonStop);
-            this.Controls.Add(this.buttonImportFile);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.buttonPlayPause);
             this.Controls.Add(this.labelAlbumName);
             this.Controls.Add(this.labelArtistName);
             this.Controls.Add(this.labelSongTitle);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
             this.Name = "MainWindow";
             this.TransparencyKey = System.Drawing.Color.DarkRed;
             this.Load += new System.EventHandler(this.MainWindow_Load);
