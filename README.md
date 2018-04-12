@@ -1,9 +1,13 @@
 # SampleMusicPlayer
 This is a C# .NET Music Player for Windows-based operating systems using the NAudio API. Supported audio formats include MP3, AAC, and FLAC. English and Japanese localization available.
 
-Version: 0.0.28
-
 OS: Windows 7 (.NET 4.0 Framework required), Windows 8.1, and Windows 10
+
+For Windows 10 based operating systems compiling for UWP
+
+Minimum target version: Windows 10 Creators Update (Build 15063)
+
+Target version: Windows 10 Fall Creators Update (Build 16299)
 
 ### Screenshots
 
