@@ -1,0 +1,71 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MusicPlayerUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    x:Class="MusicPlayerUWP.MainPage"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemColorWindowBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <AcrylicBrush TintColor="#CC000000"/>
+        </Grid.Background>
+        <Button Content="Open File" Click="Button_Click" FontSize="12" FontFamily="Segoe UI" Background="#33B4B4B4"/>
+        <Button Content="Stop" Click="Button_Click_1" FontSize="12" FontFamily="Segoe UI" Background="#33B4B4B4" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="songtitleTextBlock" Text="Song title" TextWrapping="Wrap" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI" HorizontalAlignment="Stretch" Margin="161,55,-161,-55" VerticalAlignment="Stretch"/>
+        <Button Content="Pause" Click="Button_Click_2" FontSize="12" FontFamily="Segoe UI" Background="#33B4B4B4" HorizontalAlignment="Left" Margin="9,372,0,0" VerticalAlignment="Top"/>
+        <Button 
+            Content="Play" 
+            Click="Button_Click_3" 
+            FontSize="12" 
+            FontFamily="Segoe UI" 
+            Background="#33B4B4B4"
+            HorizontalAlignment="Left" 
+            Margin="23,415,0,0"
+            VerticalAlignment="Top"/>
+        
+        <TextBlock 
+            x:Name="songtitleTextBlock_Copy" 
+            Text="Artist name" 
+            TextWrapping="Wrap" 
+            FontSize="12" 
+            FontWeight="Normal" 
+            HorizontalAlignment="Stretch" 
+            Margin="115,114,-115,-114" 
+            VerticalAlignment="Stretch"/>
+        
+        <TextBlock 
+            x:Name="songtitleTextBlock_Copy1" 
+            Text="Album name" 
+            TextWrapping="Wrap" 
+            FontSize="10" 
+            FontWeight="Normal"
+            HorizontalAlignment="Stretch" 
+            Margin="145,130,-145,-130"
+            VerticalAlignment="Stretch" 
+            FontFamily="Arial"/>
+        
+        <Custom:NavigationView 
+            Content="NavigationView" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top" 
+            CompactPaneLength="40" 
+            BackgroundSizing="InnerBorderEdge" 
+            IsBackButtonVisible="Collapsed"
+            PaneDisplayMode="Top" Height="40" IsSettingsVisible="False">
+            <Custom:NavigationView.Background>
+                <AcrylicBrush TintColor="#CCF3D2D2"/>
+            </Custom:NavigationView.Background>
+
+            <Custom:NavigationView.MenuItems>
+                <NavigationViewItem Content="Display" />
+                <NavigationViewItem Content="Magnifier"  />
+                <NavigationViewItem Content="Keyboard" />
+            </Custom:NavigationView.MenuItems>
+            
+        </Custom:NavigationView>
+    </Grid>
+</Page>
